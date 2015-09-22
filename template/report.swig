@@ -78,6 +78,7 @@
                     <thead>
                         <tr>
                             <th>Failed on</th>
+                            <th>Description</th>
                             <th>Build URL</th>
                         </tr>
                     </thead>
@@ -88,6 +89,12 @@
                                     <span class="label label-warning">New</span>
                                 {% endif %}
                             </td>
+                            <td>
+                                {% if build.description %}
+                                    {{ build.description }}
+                                {% else %}
+                                    -
+                                {% endif %}
                             <td>
                                 <a href="{{ build.url }}">{{ build.jobName }} {{ build.number }}</a>
                             </td>

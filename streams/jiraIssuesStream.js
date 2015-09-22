@@ -11,7 +11,7 @@ module.exports = through.obj(function(build, encoding, callback) {
 
     var jiraIssues = build.description.match(/[A-Z]+-[0-9]+/g);
     if (jiraIssues === null) {
-        return callback();
+        return callback(null, build);
     }
 
     for (var i = 0; i < jiraIssues.length; i++) {
