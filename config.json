@@ -7,6 +7,14 @@
     },
     {
       "baseUrl": "http://albany.eng.hst.ams2.redhat.com",
+      "name": "narayana-AS800"
+    },
+    {
+      "baseUrl": "http://albany.eng.hst.ams2.redhat.com",
+      "name": "narayana-benchmarks"
+    },
+    {
+      "baseUrl": "http://albany.eng.hst.ams2.redhat.com",
       "name": "narayana-catelyn"
     },
     {
@@ -19,7 +27,7 @@
     },
     {
       "baseUrl": "http://albany.eng.hst.ams2.redhat.com",
-      "name": "narayana-hqstore-jacorb"
+      "name": "narayana-hqstore"
     },
     {
       "baseUrl": "http://albany.eng.hst.ams2.redhat.com",
