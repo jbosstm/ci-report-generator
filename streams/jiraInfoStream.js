@@ -19,7 +19,8 @@ module.exports = function(host) {
 
         jira.issue.getIssue({issueKey: build.jiraIssueKey}, function(error, issue) {
             if (error) {
-                console.error("Got an error while getting issue info: " + error);
+                console.error("Failed to get issue info of " + build.jobName +
+                        " build " + build.number + ": " + error.errorMessages);
                 callback(error);
             }
 
