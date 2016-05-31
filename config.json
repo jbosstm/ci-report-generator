@@ -11,10 +11,6 @@
     },
     {
       "baseUrl": "http://albany.eng.hst.ams2.redhat.com",
-      "name": "narayana-benchmarks"
-    },
-    {
-      "baseUrl": "http://albany.eng.hst.ams2.redhat.com",
       "name": "narayana-catelyn"
     },
     {
