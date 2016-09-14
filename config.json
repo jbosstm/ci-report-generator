@@ -35,7 +35,15 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-ibm-jvm"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-jdbcobjectstore"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-jdk9"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
@@ -44,6 +52,14 @@
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-quickstarts-catelyn"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-quickstarts-ipv6"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-tm-comparison"
     }
   ]
 }
