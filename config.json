@@ -76,6 +76,14 @@
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-quickstarts-ipv6"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "EAP61"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "EAP7"
     }
   ]
 }
