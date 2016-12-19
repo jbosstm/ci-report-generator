@@ -15,10 +15,6 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-benchmarks-comparison"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-catelyn"
     },
     {
@@ -84,6 +80,10 @@
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "EAP7"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "release-narayana-benchmarks-comparison"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
