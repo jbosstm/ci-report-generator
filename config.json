@@ -55,6 +55,10 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-jdk-9-bt"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-jdk-9-jdk-8"
     },    
     {
