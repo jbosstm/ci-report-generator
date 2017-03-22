@@ -75,6 +75,10 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "EAP71"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "release-narayana-benchmarks-comparison"
     },
     {
