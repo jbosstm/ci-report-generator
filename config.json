@@ -3,6 +3,10 @@
   "jobs": [
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "jboss_as_testsuite_jdk_9"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana"
     },
     {
