@@ -48,6 +48,14 @@
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-jdbcobjectstore"
+    },    
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-jdbcobjectstore-db2"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-jdbcobjectstore-oracle"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
