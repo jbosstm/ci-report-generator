@@ -19,7 +19,7 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-codeCoverage"
+      "name": "narayana-JACOCO"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
@@ -52,23 +52,7 @@
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-jdbcobjectstore-db2"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-catelyn-jdk-9"
-    },  
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-jdk-9"
-    },  
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-jdk-11"
     }, 
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-codeCoverage-jdk-9"
-    },   
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-quickstarts"
