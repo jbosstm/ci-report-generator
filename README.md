@@ -1,3 +1,7 @@
+Adding more jobs
+----------------
+Edit config.json
+
 Usage
 -----
 
