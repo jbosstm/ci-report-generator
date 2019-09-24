@@ -75,7 +75,7 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "release-narayana-benchmarks-comparison"
+      "name": "release-narayana-performance-comparison"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
