@@ -2,14 +2,6 @@
   "jiraHost": "issues.jboss.org",
   "jobs": [
     {
-      "baseUrl": "https://ci-master-jenkins-csb-narayana.cloud.paas.psi.redhat.com",
-      "name": "EAP73"
-    },
-    {
-      "baseUrl": "https://ci-master-jenkins-csb-narayana.cloud.paas.psi.redhat.com",
-      "name": "narayana"
-    },
-    {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana"
     },
