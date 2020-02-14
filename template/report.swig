@@ -74,7 +74,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                <table class="table table-striped table-bordered">
+                <table id="undocumented-failures" class="table table-striped table-bordered">
                     <thead>
                         <tr>
                             <th>Failed on</th>
@@ -108,6 +108,14 @@
     <script>
         $(document).ready(function() {
             $("#documented-failures").tablesorter({
+                theme: "bootstrap",
+                headerTemplate : "{content} {icon}",
+                widthFixed: true,
+                widgets: ["uitheme"],
+                dateFormat: "ddmmyyyy",
+                sortList: [[5, 1]]
+            });
+            $("#undocumented-failures").tablesorter({
                 theme: "bootstrap",
                 headerTemplate : "{content} {icon}",
                 widthFixed: true,
