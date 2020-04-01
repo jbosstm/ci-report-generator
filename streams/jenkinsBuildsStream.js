@@ -6,7 +6,7 @@ module.exports = through.obj(function(job, encoding, callback) {
     var self = this;
 
     jenkins.job.get(job.name, function(error, data) {
-        // console.log("Getting builds of " + job.name);
+        console.log("Getting builds of " + job.name);
 
         if (error) {
             return callback(error);
