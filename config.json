@@ -15,10 +15,6 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-LRA"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-catelyn"
     },
     {
@@ -52,10 +48,6 @@
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-quickstarts"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-quickstarts-LRA"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
