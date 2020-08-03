@@ -59,6 +59,22 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "jbossts417"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana52"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana55"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana59"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "release-narayana-performance-comparison"
     },
     {
