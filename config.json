@@ -59,10 +59,6 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "EAP64"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "EAP7"
     },
     {
