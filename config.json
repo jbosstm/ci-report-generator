@@ -7,11 +7,15 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-as-tests"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-AS800"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-performance"
+      "name": "narayana-AS800-windows"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
@@ -31,20 +35,24 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-ibm-jdk"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-ibm-jvm"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-io"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-jdbcobjectstore"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-jdbcobjectstore-db2"
     },    
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-lra-master"
+    },
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "narayana-performance"
+    },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-quickstarts"
@@ -84,6 +92,10 @@
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "release-narayana-catelyn"
+    },    
+    {
+      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "name": "release-narayana-performance-comparison"
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
