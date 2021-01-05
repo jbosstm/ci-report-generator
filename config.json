@@ -43,10 +43,6 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-jdbcobjectstore-db2"
-    },    
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-performance"
     },
     {
