@@ -7,18 +7,6 @@
     },
     {
       "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-as-tests"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-AS800"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
-      "name": "narayana-AS800-windows"
-    },
-    {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
       "name": "narayana-catelyn"
     },
     {
