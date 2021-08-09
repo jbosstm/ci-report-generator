@@ -2,7 +2,7 @@ var through = require("through2");
 
 module.exports = through.obj(function(build, encoding, callback) {
 
-    var jenkins = require("jenkins")(build.baseUrl);
+    var jenkins = require("jenkins")(process.env.JENKINS_URL);
     var self = this;
 
     jenkins.build.get(build.jobName, build.number, function(error, data) {

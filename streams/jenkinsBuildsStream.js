@@ -2,7 +2,7 @@ var through = require("through2");
 
 module.exports = through.obj(function(job, encoding, callback) {
 
-    var jenkins = require("jenkins")(job.baseUrl);
+    var jenkins = require("jenkins")(process.env.JENKINS_URL);
     var self = this;
 
     jenkins.job.get(job.name, function(error, data) {
@@ -14,7 +14,7 @@ module.exports = through.obj(function(job, encoding, callback) {
 
         for (var i = 0; i < data.builds.length; i++) {
             data.builds[i].jobName = job.name;
-            data.builds[i].baseUrl = job.baseUrl;
+            data.builds[i].baseUrl = process.env.JENKINS_URL;
             self.push(data.builds[i]);
         }
 

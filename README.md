@@ -4,8 +4,6 @@ Edit config.json
 
 Usage
 -----
-
-    npm install
-    grunt
+./node_modules/grunt-cli/bin/grunt
     
 Report will be generated in dist/report.html

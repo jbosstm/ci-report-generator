@@ -2,83 +2,83 @@
   "jiraHost": "issues.jboss.org",
   "jobs": [
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-noproxy"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-catelyn"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-documentation"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-dualstack"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-hqstore"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-io"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-jdbcobjectstore"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-performance"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-quickstarts"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-quickstarts-catelyn"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-quickstarts-ipv6"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "417"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "59"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "511"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana-performance-comparison"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana-catelyn"
     },    
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana-performance-comparison"
     },
     {
-      "baseUrl": "http://narayanaci1.eng.hst.ams2.redhat.com",
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana-quickstarts"
     }
   ]
