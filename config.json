@@ -11,10 +11,6 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-catelyn"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-documentation"
     },
     {
@@ -43,10 +39,6 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-quickstarts-catelyn"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-quickstarts-ipv6"
     },
     {
@@ -69,10 +61,6 @@
       "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana"
     },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "release-narayana-catelyn"
-    },    
     {
       "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana-performance-comparison"
