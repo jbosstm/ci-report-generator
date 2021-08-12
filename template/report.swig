@@ -14,7 +14,7 @@
             <div class="col-md-12">
                 <div class="page-header">
                     <h1>CI Report <small>Generated on {{ currentDate | date("y-M-d H:minutes:s") }}</small></h1>
-                    <p>Monitoring <a href="http://narayanaci1.eng.hst.ams2.redhat.com/view/Narayana/">http://narayanaci1.eng.hst.ams2.redhat.com/view/Narayana/</a></p>
+                    <p>Monitoring <a href="{{ jenkinsURL }}">{{ jenkinsURL }}</a></p>
                 </div>
             </div>
         </div>

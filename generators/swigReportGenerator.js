@@ -53,7 +53,8 @@ module.exports = function(failuresMap) {
     var options = {
         currentDate: new Date(),
         documentedFailures: documentedFailures,
-        undocumentedBuilds: undocumentedBuilds
+        undocumentedBuilds: undocumentedBuilds,
+        jenkinsURL: process.env.JENKINS_URL
     };
 
     swig.renderFile(templatePath, options, function(error, content) {
