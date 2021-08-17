@@ -27,10 +27,6 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-performance"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-quickstarts"
     },
     {
@@ -51,15 +47,7 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "release-narayana-performance-comparison"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "release-narayana-performance-comparison"
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
