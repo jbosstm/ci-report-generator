@@ -15,5 +15,5 @@ fromArray.obj(config.jobs)
     .pipe(jiraInfoStream)
     .pipe(failuresAggregatorStream);
 
-var swigReportGenerator = require("./generators/swigReportGenerator");
-failuresAggregatorStream.on("data", swigReportGenerator);
+var nunjucksReportGenerator = require("./generators/nunjucksReportGenerator");
+failuresAggregatorStream.on("data", nunjucksReportGenerator);
