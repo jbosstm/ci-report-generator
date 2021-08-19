@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="page-header">
-                    <h1>CI Report <small>Generated on {{ currentDate | date("y-M-d H:minutes:s") }}</small></h1>
+                    <h1>CI Report <small>Generated on {{ currentDate }}</small></h1>
                     <p>Monitoring <a href="{{ jenkinsURL }}">{{ jenkinsURL }}</a></p>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                             <td>{{ failure.jiraIssueStatus }}</td>
                             <td>{{ failure.jiraIssuePriority }}</td>
                             <td>{{ failure.builds.length }}</td>
-                            <td>{{ failure.lastFailureDate | date("d/m/Y") }}
+                            <td>{{ failure.lastFailureDate }}
                                 {% if failure.isNew %}
                                     <span class="label label-warning">New</span>
                                 {% endif %}
@@ -84,7 +84,7 @@
                     </thead>
                     {% for build in undocumentedBuilds %}
                         <tr>
-                            <td>{{ build.date.toString() | date("d/m/Y") }}
+                            <td>{{ build.date.toString() }}
                                 {% if build.isNew %}
                                     <span class="label label-warning">New</span>
                                 {% endif %}

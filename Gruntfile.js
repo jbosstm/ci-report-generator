@@ -1,32 +1,32 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
-        pkg: grunt.file.readJSON("package.json"),
+        pkg: grunt.file.readJSON('package.json'),
         clean: [
-            "dist"
+            'dist'
         ],
         jshint: {
-            all: ["*.js", "generators/*.js", "streams/*.js"]
+            all: ['*.js', 'generators/*.js', 'streams/*.js']
         },
         mkdir: {
             all: {
                 options: {
-                    create: ["dist"]
+                    create: ['dist']
                 }
             }
         },
-        execute: {
-            target: {
-                src: ["index.js"]
+        run: {
+            execute_index: {
+                exec: 'node index.js'
             }
         }
     });
 
-    grunt.loadNpmTasks("grunt-contrib-clean");
-    grunt.loadNpmTasks("grunt-contrib-jshint");
-    grunt.loadNpmTasks("grunt-mkdir");
-    grunt.loadNpmTasks("grunt-execute");
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-mkdir');
+    grunt.loadNpmTasks('grunt-run');
 
-    grunt.registerTask("default", ["clean", "jshint", "mkdir", "execute"]);
+    grunt.registerTask('default', ['clean', 'jshint', 'mkdir', 'run']);
 
 };
