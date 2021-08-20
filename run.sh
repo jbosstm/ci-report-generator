@@ -1,12 +1,13 @@
-mv package-lock.json package-lock.json.bak
+if [ -z $JENKINS_URL ]; then
+  echo "JENKINS_URL is not set"
+  exit
+fi
 
 npm install
-
-mv package-lock.json.bak package-lock.json
-
 npm audit
 
 if [ $? -eq 1 ]; then
+  echo "npm audit failed"
   exit
 fi
 
