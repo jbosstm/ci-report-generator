@@ -2,31 +2,13 @@ var through = require("through2");
 var _ = require("underscore");
 
 var failures = {
-    other: {
-        jiraIssueKey: null,
-        jiraIssueStatus: null,
-        jiraIssueSummary: null,
-        builds: []
-    }
+    builds: []
 };
 
 function transform(build, encoding, callback) {
     console.log("Aggregating " + build.jobName + " build " + build.number);
 
-    if (!_.isString(build.jiraIssueKey)) {
-        failures.other.builds.push(build);
-    } else if (_.keys(failures).indexOf(build.jiraIssueKey) >= 0) {
-        failures[build.jiraIssueKey].builds.push(build);
-    } else {
-        failures[build.jiraIssueKey] = {
-            jiraIssueKey: build.jiraIssueKey,
-            jiraIssueStatus: build.jiraIssueStatus,
-            jiraIssueSummary: build.jiraIssueSummary,
-            jiraIssuePriority: build.jiraIssuePriority,
-            jiraIssueUrl: build.jiraIssueUrl,
-            builds: [build]
-        };
-    }
+    failures.builds.push(build);
 
     return callback();
 }

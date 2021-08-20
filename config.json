@@ -1,5 +1,4 @@
 {
-  "jiraHost": "issues.jboss.org",
   "jobs": [
     {
       "baseUrl": "${ENV.JENKINS_URL}",

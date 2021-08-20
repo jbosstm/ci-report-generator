@@ -21,54 +21,7 @@
 
         <div class="row">
             <div class="col-md-5">
-                <h2>Documented failures</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <table id="documented-failures" class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>JIRA key</th>
-                            <th>JIRA summary</th>
-                            <th>JIRA status</th>
-                            <th>JIRA priority</th>
-                            <th>Number of failures</th>
-                            <th>Last failed on</th>
-                            <th>Failed builds</th>
-                        </tr>
-                    </thead>
-                    {% for failure in documentedFailures %}
-                        <tr>
-                            <td>
-                                <a href="{{ failure.jiraIssueUrl }}">{{ failure.jiraIssueKey }}</a>
-                            </td>
-                            <td>{{ failure.jiraIssueSummary }}</td>
-                            <td>{{ failure.jiraIssueStatus }}</td>
-                            <td>{{ failure.jiraIssuePriority }}</td>
-                            <td>{{ failure.builds.length }}</td>
-                            <td>{{ failure.lastFailureDate }}
-                                {% if failure.isNew %}
-                                    <span class="label label-warning">New</span>
-                                {% endif %}
-                            </td>
-                            <td>
-                                {% for build in failure.builds %}
-                                    <div>
-                                        <a href="{{ build.url }}">{{ build.jobName }} {{ build.number }}</a>
-                                    </div>
-                                {% endfor %}
-                            </td>
-                        </tr>
-                    {% endfor %}
-                </table>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-5">
-                <h2>Undocumented failures</h2>
+                <h2>CI failures</h2>
             </div>
         </div>
 
@@ -107,14 +60,6 @@
 
     <script>
         $(document).ready(function() {
-            $("#documented-failures").tablesorter({
-                theme: "bootstrap",
-                headerTemplate : "{content} {icon}",
-                widthFixed: true,
-                widgets: ["uitheme"],
-                dateFormat: "ddmmyyyy",
-                sortList: [[5, 1]]
-            });
             $("#undocumented-failures").tablesorter({
                 theme: "bootstrap",
                 headerTemplate : "{content} {icon}",

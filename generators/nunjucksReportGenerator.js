@@ -21,16 +21,6 @@ function writeToFile(path, content) {
     return deferred.promise;
 }
 
-function addLastFailureInfo(failures) {
-    for (var i = 0; i < failures.length; i++) {
-        var lastFailedBuild = _.max(failures[i].builds, "timestamp");
-        failures[i].lastFailureDate = formatDateToIso(new Date(lastFailedBuild.timestamp));
-        failures[i].isNew = lastFailedBuild.timestamp > (new Date().getTime() - weekMilliseconds);
-    }
-
-    return failures;
-}
-
 function addBuildInfo(builds) {
     for (var i = 0; i < builds.length; i++) {
         builds[i].date = formatDateToIso(new Date(builds[i].timestamp));
@@ -40,10 +30,6 @@ function addBuildInfo(builds) {
     return builds;
 }
 
-function documentedFailuresFilter(failure) {
-    return failure.jiraIssueKey !== null;
-}
-
 function formatDateToIso(date) {
     return date.toISOString().replace(/T/, ' ').replace(/\..+/, '');
 }
@@ -51,19 +37,10 @@ function formatDateToIso(date) {
 module.exports = function(failuresMap) {
     var deferred = q.defer();
     var failuresArray = _.values(failuresMap);
-    var documentedFailures = addLastFailureInfo(_.filter(failuresArray, documentedFailuresFilter));
-    var undocumentedBuilds = addBuildInfo(failuresMap.other.builds);
-
-    var context = {
-        currentDate: new Date(),
-        documentedFailures: documentedFailures,
-        undocumentedBuilds: undocumentedBuilds,
-        jenkinsURL: process.env.JENKINS_URL
-    };
+    var undocumentedBuilds = addBuildInfo(failuresMap.builds);
 
     nunjucks.configure(templatePath)
 	.addGlobal("currentDate", formatDateToIso(new Date()))
-	.addGlobal("documentedFailures", documentedFailures)
 	.addGlobal("undocumentedBuilds", undocumentedBuilds)
 	.addGlobal("jenkinsURL", process.env.JENKINS_URL)
 	.render("", function(error, content) {
