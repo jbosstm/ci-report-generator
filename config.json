@@ -18,6 +18,10 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
+      "name": "narayana-io"
+    },
+    {
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-jdbcobjectstore"
     },
     {
