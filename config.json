@@ -38,6 +38,10 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
+      "name": "narayana-quickstarts-matrix"
+    },
+    {
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-quickstarts-ipv6"
     },
     {
