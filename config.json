@@ -42,10 +42,6 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-quickstarts-ipv6"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "417"
     },
     {
