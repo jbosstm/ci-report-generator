@@ -38,19 +38,11 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-quickstarts"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-quickstarts-matrix"
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
       "name": "417"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "59"
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
