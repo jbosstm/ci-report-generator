@@ -6,10 +6,6 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-AS_TESTS"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-documentation"
     },
     {
