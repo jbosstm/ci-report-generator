@@ -6,30 +6,6 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-noproxy"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-documentation"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-dualstack"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-hqstore"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-io"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "narayana-jdbcobjectstore"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-performance"
     },
     {
@@ -38,19 +14,11 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "417"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "511"
+      "name": "narayana-quickstarts2"
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana-performance-comparison"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "release-narayana-quickstarts"
     }
   ]
 }
