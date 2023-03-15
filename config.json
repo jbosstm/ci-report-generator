@@ -6,6 +6,10 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
+      "name": "narayana-parameterised"
+    },
+    {
+      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "narayana-documentation"
     },
     {
