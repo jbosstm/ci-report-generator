@@ -38,14 +38,6 @@
     },
     {
       "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "417"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
-      "name": "511"
-    },
-    {
-      "baseUrl": "${ENV.JENKINS_URL}",
       "name": "release-narayana-quickstarts"
     },
     {
