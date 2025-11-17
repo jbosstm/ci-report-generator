@@ -11,4 +11,6 @@ if [ $? -eq 1 ]; then
   exit
 fi
 
-./node_modules/grunt-cli/bin/grunt
+rm -rf dist
+mkdir dist
+node index.js
