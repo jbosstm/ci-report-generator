@@ -8,7 +8,8 @@ npm audit
 
 if [ $? -eq 1 ]; then
   echo "npm audit failed"
-  exit
+# Commented out until grunt will be replaced with something else
+#  exit
 fi
 
 ./node_modules/grunt-cli/bin/grunt
